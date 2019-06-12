@@ -41,6 +41,7 @@ dependencies {
     implementation deps.navigation.fragment_ktx
     implementation deps.navigation.ui_ktx
     implementation deps.navigation.ui
-    
+
+    implementation deps.support.core_ktx
     implementation deps.support.design
 }
