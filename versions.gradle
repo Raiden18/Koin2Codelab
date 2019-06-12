@@ -13,6 +13,7 @@ versions.android_gradle_plugin = "3.4.1"
 versions.kotlin = "1.3.31"
 versions.glide = "4.9.0"
 versions.mockk = "1.9"
+versions.navigation = "2.1.0-alpha04"
 ext.versions = versions
 
 def koin = [:]
@@ -32,7 +33,18 @@ deps.arch = arch
 
 def support = [:]
 support.app_compat = "androidx.appcompat:appcompat:$versions.support"
+support.design = "com.google.android.material:material:$versions.support"
 deps.support = support
+
+def navigation = [:]
+navigation.runtime = "androidx.navigation:navigation-runtime:$versions.navigation"
+navigation.runtime_ktx = "androidx.navigation:navigation-runtime-ktx:$versions.navigation"
+navigation.fragment = "androidx.navigation:navigation-fragment:$versions.navigation"
+navigation.fragment_ktx = "androidx.navigation:navigation-fragment-ktx:$versions.navigation"
+navigation.ui = "androidx.navigation:navigation-ui:$versions.navigation"
+navigation.ui_ktx = "androidx.navigation:navigation-ui-ktx:$versions.navigation"
+navigation.safe_args_plugin = "androidx.navigation:navigation-safe-args-gradle-plugin:$versions.navigation"
+deps.navigation = navigation
 
 def view = [:]
 view.constraintlayout = "androidx.constraintlayout:constraintlayout:${versions.constraint_layout}"
