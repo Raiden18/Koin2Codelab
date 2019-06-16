@@ -1,7 +1,7 @@
 package me.raiden.codelab.navigation.di
 
 import me.raiden.codelab.koin.login.LogInNavigation
-import me.raiden.codelab.koin.questions.ProfileNavigation
+import me.raiden.codelab.koin.profile.ProfileNavigation
 import me.raiden.codelab.navigation.arguments.profile.ProfileArguments
 import me.raiden.codelab.navigation.arguments.profile.ProfileArgumentsImpl
 import me.raiden.codelab.navigation.navigators.LogInNavigationImpl

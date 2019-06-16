@@ -21,7 +21,4 @@ dependencies {
     //Tests
     testImplementation deps.unit_test.junit
     testImplementation deps.unit_test.mockk
-
-    //Koin
-    implementation deps.koin.android
 }

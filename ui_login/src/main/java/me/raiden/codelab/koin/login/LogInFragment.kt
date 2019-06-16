@@ -8,7 +8,7 @@ import org.koin.android.scope.currentScope
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class LogInFragment : BaseFragment<LogInViewModel, FragmentQuestionBinding>() {
-    override val viewModel: LogInViewModel by currentScope.viewModel(this)
+    override val viewModel: LogInViewModel
     override val layoutId: Int = R.layout.fragment_question
 
     override fun onCreateView() {

@@ -1,8 +1,8 @@
-package me.raiden.codelab.koin.data.datasources.remote
+package me.raiden.codelab.koin.data.datasources.remote.login
 
 import android.util.Log
 
-class LogInServiceImpl : LogInService {
+class LogInRemoteDataSourceImpl : LogInRemoteDataSource {
 
     override fun logInt(email: String, password: String) {
         Log.i("REMOTE_EMAIL", email)

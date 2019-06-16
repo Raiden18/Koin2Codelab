@@ -9,9 +9,6 @@ android {
 
 dependencies {
     implementation project(':ui__base')
-    //Koin
-    implementation deps.koin.viewmodel
-    implementation deps.koin.android_scope
     //Arch
     implementation deps.arch.view_model
     //Support

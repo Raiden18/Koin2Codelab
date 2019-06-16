@@ -25,7 +25,7 @@ class LogInViewModel(
     private fun logInAndOpenCabinet() {
         isValidData.postValue(true)
         logIngUseCase.logIn(email.value!!, password.value!!)
-        questionNavigation.openProfile(email.value!!)
+        //questionNavigation.openProfile(email.value!!)
     }
 
     override fun onCleared() {

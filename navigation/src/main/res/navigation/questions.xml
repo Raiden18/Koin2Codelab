@@ -6,7 +6,7 @@
 
     <fragment
             android:id="@+id/profileFragment"
-            android:name="me.raiden.codelab.koin.questions.ProfileFragment"
+            android:name="me.raiden.codelab.koin.profile.ProfileFragment"
             android:label="QuestionsFragment">
     </fragment>
 
