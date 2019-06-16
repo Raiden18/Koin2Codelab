@@ -4,6 +4,5 @@ include ':app',
         ':domain',
         ':navigation',
         ':ui__base',
-        ':ui_questions',
-        ':ui_question',
-        ':ui_result'
+        ':ui_profile',
+        ':ui_login'

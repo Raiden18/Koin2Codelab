@@ -6,6 +6,6 @@
 
     <fragment
             android:id="@+id/rightAnserList"
-            android:name="me.raiden.modular.navigation.result.right.RightAnswerFragment"
+            android:name="me.raiden.codelab.koin.result.right.RightAnswerFragment"
             android:label="RightAnswerFragmentList"/>
 </navigation>

@@ -26,9 +26,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':ui_questions')
-    implementation project(':ui_question')
-    implementation project(':ui_result')
+    implementation project(':ui_profile')
+    implementation project(':ui_login')
     implementation 'androidx.appcompat:appcompat:1.0.2'
     testImplementation "io.mockk:mockk:1.9"
     testImplementation 'junit:junit:4.12'

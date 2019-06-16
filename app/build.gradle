@@ -3,7 +3,7 @@ apply from: "$rootDir/base_android_settings.gradle"
 
 android {
     defaultConfig {
-        applicationId "me.raiden.modular.navigation"
+        applicationId "me.raiden.codelab.koin"
     }
     dataBinding{
         enabled = true
@@ -12,9 +12,8 @@ android {
 
 dependencies {
     implementation project(':ui__base')
-    implementation project(':ui_questions')
-    implementation project(':ui_question')
-    implementation project(':ui_result')
+    implementation project(':ui_profile')
+    implementation project(':ui_login')
     implementation project(':navigation')
     implementation project(':data')
 

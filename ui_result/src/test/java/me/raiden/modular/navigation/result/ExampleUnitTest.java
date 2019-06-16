@@ -1,4 +1,4 @@
-package me.raiden.modular.navigation.result;
+package me.raiden.codelab.koin.result;
 
 import org.junit.Test;
 

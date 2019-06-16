@@ -2,35 +2,28 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/questions_navigation"
-            app:startDestination="@id/questionsFragment">
+            app:startDestination="@id/logInFragment">
 
     <fragment
-            android:id="@+id/questionsFragment"
-            android:name="me.raiden.modular.navigation.questions.QuestionsFragment"
+            android:id="@+id/profileFragment"
+            android:name="me.raiden.codelab.koin.questions.ProfileFragment"
             android:label="QuestionsFragment">
-        <action
-                android:id="@+id/action_questionsFragment_to_questionFragment"
-                app:destination="@id/questionFragment"/>
     </fragment>
 
     <fragment
-            android:id="@+id/questionFragment"
-            android:name="me.raiden.modular.navigation.question.QuestionFragment"
-            android:label="QuestionFragment">
+            android:id="@+id/logInFragment"
+            android:name="me.raiden.codelab.koin.login.LogInFragment"
+            android:label="LogInFragment">
         <action
-                android:id="@+id/action_questionFragment_to_wrongAnswerFragment"
-                app:destination="@id/wrongAnswerFragment"/>
-        <action
-                android:id="@+id/action_questionFragment_to_rightAnswerFragment"
-                app:destination="@id/rightAnswerFragment"
-                app:popUpTo="@+id/questionsFragment"/>
+                android:id="@+id/action_logInFragment_to_profileFragment"
+                app:destination="@id/profileFragment"/>
     </fragment>
     <fragment
             android:id="@+id/wrongAnswerFragment"
-            android:name="me.raiden.modular.navigation.result.wrong.WrongAnswerFragment"
+            android:name="me.raiden.codelab.koin.result.wrong.WrongAnswerFragment"
             android:label="WrongAnswerFragment"/>
     <fragment
             android:id="@+id/rightAnswerFragment"
-            android:name="me.raiden.modular.navigation.result.right.RightAnswerFragment"
+            android:name="me.raiden.codelab.koin.result.right.RightAnswerFragment"
             android:label="RightAnswerFragment"/>
 </navigation>
